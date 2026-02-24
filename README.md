@@ -31,8 +31,8 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone <url-репозитория>
-   cd <папка-проекта>
+    git clone https://github.com/craigthesloth/CSV_Median_Calculator
+    cd CSV_Median_Calculator
    ```
 
 2. Создайте директорию для сборки и запустите CMake:
@@ -57,7 +57,7 @@
 │   │   ├── input/              # входные CSV-файлы
 │   │   └── output/              # выходные результаты (создаётся автоматически)
 │   └── logs/                    # файлы логов с ротацией
-├── TestBankProgram              # исполняемый файл (название может отличаться)
+├── CSV_Median_Calculator        # исполняемый файл (название может отличаться)
 └── ...
 ```
 
@@ -70,13 +70,13 @@
 
 ### С явным указанием конфигурационного файла
 ```bash
-./TestBankProgram --config /путь/к/config.toml
-./TestBankProgram -cfg config.toml
+./CSV_Median_Calculator --config /путь/к/config.toml
+./CSV_Median_Calculator -cfg config.toml
 ```
 
 ### Если аргументы не указаны
 ```bash
-./TestBankProgram
+./CSV_Median_Calculator
 ```
 Используется `resources/configs/config.toml` (или `config.toml` рядом с исполняемым файлом).
 
