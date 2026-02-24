@@ -1,0 +1,6 @@
+[main]
+input = "resources/data/input"             
+output = "resources/data/output"              
+filename_mask = ["level", "trade", "data", "stock"]  
+#application shell search for names including level; trade; etc
+#like trade_stock_market.cvs; trade_data_april.csv; etc
